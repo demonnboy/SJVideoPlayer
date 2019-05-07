@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://gitee.com/changsanjiang/SJVideoPlayer.git', :tag => "v#{s.version}" }
     s.requires_arc = true
     s.dependency 'Masonry'
-    s.dependency 'SJBaseVideoPlayer'
+    s.dependency 'SJBaseVideoPlayer', '1.7.0'
     s.dependency 'SJFullscreenPopGesture'
     s.dependency 'SJUIFactory'
     s.dependency 'SJAttributesFactory'
